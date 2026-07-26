@@ -1,19 +1,49 @@
 aid: fimi
-name: fimi
-description: fimi is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: FIMI Technology
+description: >-
+  FIMI Technology Ltd. (Beijing FIMI Technology Co., Ltd. / Shenzhen FIMI Robot Technology Co., Ltd.)
+  is a consumer aerial-imaging hardware manufacturer founded in May 2014 as a member of the Xiaomi
+  ecosystem. FIMI designs and sells affordable camera drones, handheld gimbal cameras, and smartphone
+  gimbals, with a product lineup that includes the X8 series (X8 SE, X8 Pro, X8 Tele, X8T enterprise),
+  the compact Mini 3, the Manta VTOL fixed-wing drone, and the PALM series gimbal cameras. The company
+  holds hundreds of patents across flight control, wireless transmission links, mechatronic design,
+  gimbal image-stabilization, and computer vision. FIMI is a portfolio company of Qiming Venture
+  Partners. This is a consumer-electronics company with no public developer program, API, SDK, or
+  developer portal; this profile captures its public identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/fimi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.fimi.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: Consumer Electronics
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Consumer Electronics
+- Drones
+- Cameras
+- Gimbals
+- Aerial Imaging
+- Hardware
+- Xiaomi Ecosystem
+- Robotics
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://fimi.com
+- type: About
+  url: https://www.fimi.com/about-fimi.html
+- type: Support
+  url: https://www.fimi.com/fimi-premium-care.html
+- type: Downloads
+  url: https://www.fimi.com/download.html
+- type: Contact
+  url: https://www.fimi.com/contact.html
+- type: Store
+  url: https://store.fimi.com
+- type: DomainSecurity
+  url: security/fimi-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
